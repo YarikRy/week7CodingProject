@@ -1,0 +1,70 @@
+body{
+    background-color: rgba(0, 48, 48, 0.726);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: cursive;
+    border-bottom: 3px solid black;
+}
+p{
+    font-size: 20px;
+    font-family: cursive;
+}
+h2{
+    display:flex;
+    justify-content: center;
+}
+li{
+    font-size: 25px;
+    font-family:cursive;
+}
+table, th, td{
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 5px;
+    border-collapse:collapse;
+    font-size: 20px;
+    font-family: cursive;
+}
+form{
+    display:flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: cursive;
+}
+#firstName, #lastName, #reason{
+    font-size: 10px;
+}
+.img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+#banner{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 40px;
+    margin-top: 5px;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: cursive;
+    border-bottom: 2px solid black;
+}
+a:hover{
+    background-color: rgba(0, 105, 105, 0.726);
+    color: white;
+}
+a{
+    color:black;
+}
